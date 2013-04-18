@@ -1,5 +1,8 @@
 tippedOff
 =========
+Currently supports jQuery versions 1.4.2 up to 1.7.2 (makes use of the .live() functionality which is depreciated in later versions)
+I will be modifying it in the near future to support 1.8.x+<br><br><br>
+
 
 // $.tippedOff();<br>
 // In its current for, this is just a very raw method of displaying a tooltip like message.<br>
