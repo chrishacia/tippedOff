@@ -1,20 +1,28 @@
-.tippedOff_msg {
-	padding:6px 6px 6px 6px;
+/* jQuery tippedOff Plugin Style */
+.tippedOff_msg, .tippedOff_msg_fixed {
+	padding:10px 10px 10px 10px !important;
 	display:none;
-	background-color:#000;
-	color:#FFF;
+	background-color:#f8fffc;
+	color:#000;
 	position:absolute;
 	overflow: auto;
 	overflow-y: hidden;
 	-ms-overflow-y: hidden;
+	z-index:500;
+}
+/*overriding some of the styles imposed by combinine the two with one reference*/
+.tippedOff_msg_fixed {
+	position: fixed;
+	z-index: 9999;
 }
 .tippedOff_hover {
-	border-bottom: 1px dotted #e80;
+	margin:0 !important;
+	padding:0 !important;
+	border-bottom: 1px dotted #395 !important;
 	cursor: help;
 }
 .tippedOff_hover:hover {
-	color: #e80;
-	font-style: italic;
+	color: #284;
 }
 .round_edges {
 	-moz-border-radius: 4px;
@@ -23,4 +31,7 @@
 	border-radius: 4px;
 	behavior: url(border-radius.htc); /* IE */
 }
-.blue_border{border:3px solid #0092C7;}
+.blue_border{border:2px solid #0092C7;}
+.green_border{border:2px solid #395;}
+
+/* /jQuery tippedOff Plugin Style */
